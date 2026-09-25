@@ -1,7 +1,22 @@
+# Python cache
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
-.venv/
+*.py[cod]
+
+# Virtual environments
 venv/
+.venv/
 env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
 .DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
